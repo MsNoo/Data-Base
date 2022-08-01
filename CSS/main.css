@@ -1,0 +1,76 @@
+input,
+label {
+    display: block;
+}
+body, html {
+    height: 100vh;
+    margin: 0;
+  }
+.bg {
+    /* The image used */
+    background-image:  url('../pictures/background.jpg');
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.form>* {
+    width: 550px;
+    height: 700px;
+    background-color: white;
+    margin-top: 110px;
+    margin-left: calc((100% - 450px)/2);
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.formContainer {
+    padding: 30px;
+}
+.textFields {
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+.fields>* {
+    margin-top: 20px;
+}
+.textboxFeatures {
+    all: unset;
+    border-radius: 4px;
+    background-color: rgb(245, 245, 245);
+    height: 24px;
+    width: 225px;
+    padding: 2.3px;
+}
+.fontStyle {
+    font-size: 13px;
+    font-weight: bold;
+    color: #1c3a57;
+    margin-bottom: 6px;
+    margin-top: 7px;
+}
+.fontStyleTable{
+    font-size: 13px;
+    color: #1c3a57;
+    margin-bottom: 7px;
+    margin-top: 10px;
+}
+.button {
+    all: unset;
+    width: 486px;
+    height: 40px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    border-radius: 5px;
+    background-color: rgba(117, 48, 183, 0.804);
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+.button:active {
+    background-color: rgba(137, 43, 226, 0.769);
+}
